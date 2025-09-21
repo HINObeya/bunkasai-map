@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>画像を並べて表示</title>
+  <style>
+    .gallery {
+      display: flex;
+      gap: 10px; /* 画像同士の間隔 */
+      flex-wrap: wrap; /* 画面が小さい時は折り返す */
+    }
+    .gallery img {
+      width: 1000px; /* 画像の大きさ調整 */
+      height: auto;
+      border-radius: 8px; /* 角を少し丸く */
+    }
+  </style>
+</head>
+<body>
+  <h1>学校地図</h1>
+  <div class="gallery">
+    <img src="IMG_20220506_182022.jpg" alt=>
+    <img src="20250921_100116.jpg" alt=>
+  </div>
+</body>
+</html>
